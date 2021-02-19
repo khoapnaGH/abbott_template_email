@@ -1,0 +1,34 @@
+﻿.report-box img {
+    max-width: 150px;
+}
+
+.report-box {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.report-box .speakers-content{
+
+}
+
+    .report-box .report-title {
+        text-transform: none !important;
+        color: black !important;
+    }
+
+    .report-box .action-report a, .report-box .action-report i {
+        font-size: 1.5em;
+    }
+
+    .report-box .action-report a {
+        display: inline-block;
+    }
+
+    .report-box .action-report a:hover{
+        cursor: pointer
+    }
+
+    .report-box .report-date-create{
+        color:black!important;
+        font-size:0.65em;
+    }

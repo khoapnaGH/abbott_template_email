@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Template_Email_Abbott_RegisterUser_HCM</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			margin: 0px;
+			background-color: #f2f2f2;
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+		.container {
+			font-size: 15px;
+			margin: 0 auto;
+			padding: 40px 20px;
+			max-width: 560px;
+			border-radius: 5px;
+			background-color: #ffffff;
+		}
+		.container-content p {
+			line-height: 1.5rem;
+			font-family: 'HelveticaNeue',sans-serif;
+			text-align: justify;
+			padding-right: 20px;
+		}
+		#img_logo {
+			max-width: 100%;
+		}
+		#img_qr-code {
+			display: block;
+			margin: 0 auto;
+		}
+		.information_table {
+			display:inline-block;
+			width:100%;
+			border: solid #009CDE;
+			border-style:double;
+		}
+			.information_table ul li {
+				padding-bottom: 7px;
+				list-style: none;
+			}
+			.information_table ul li::before {
+				color: #009CDE;
+	            content: '■';
+			}
+		hr {
+			border-style: solid;
+			color: #ebebeb;
+		}	
+		.footer {
+			background-color: #ecf8ff;
+			text-align: center;
+		}
+			.footer p {
+				padding: 10px 0;
+				margin-bottom: 0;
+			}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="container-content">
+			<img id="img_logo" src="images/ABBOTT_Logo.jpg" alt="ABBOTT_Logo">
+			<p>Dear Dr./MD./Prof. [NAME]</p>
+			<p>Thank you for registering for <b>APAC IVF Masterclass 2019</b> held at Sheraton hotel, Ho Chi Minh, Vietnam
+			from 8th to 9th June 2019. We are pleased to confirm your participation and we look forward to
+			welcoming you in Ho Chi Minh city.</p>
+			<p>Below is the recap of your registration details as well as important information that you need to take note of before you journey.</p>
+			<div class="information_table">
+				<ul>
+					<li>
+						<b>Name</b>: [FullName]
+					</li>
+					<li>
+						<b>Title</b>: [Title]
+					</li>
+					<li>
+						<b>Email</b>: [Email]
+					</li>
+					<li>
+						<b>Mobile</b>: [Mobile]
+					</li>
+					<li>
+						<b>Working place</b>: [Working place]
+					</li>
+				</ul>
+			</div>
+			<p>If there are any changes or discrepancies, please email to the event secretariat at
+				<a href="mailto:abbottwmh@gmail.com">abbottwmh@gmail.com</a>.</p>
+			<p>Besides, kindly access <b>APAC IVF Masterclass</b> website at: 
+				<a href="http://abbottwmh.org">http://abbottwmh.org</a> and view latest news of the event.</p>
+			<img id="img_qr-code" src="images/qr_code_abbottwmh.png" alt="qr_code_abbottwmh">
+			<p>Best regards,</p>
+			<p><b>APAC IVF Masterclass secretariat</b></p>
+			<hr>
+		</div>	
+		<div class="footer">
+			<p>* This is automatic email, So please contact us via <br>email (apacivfmasterclass@abbottwmh.org) if you have any question<br> 
+			* If there are problems with how this message is displayed, click in top of email to <br> "View in browser".
+			</p>
+		</div>
+	</div>
+</body>
+</html>

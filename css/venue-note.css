@@ -1,0 +1,39 @@
+﻿#venue-note-schedule .schedule-date .d-table-cell {
+    font-size: 0.7em;
+}
+
+#venue-note-schedule .schedule-date {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#title-section-schedule{
+    padding-top: 20px;
+    margin-bottom:20px;
+}
+
+#venue-note-schedule .author i {
+    font-size: 2.2em;
+    color: #8d3893;
+}
+
+.about-content{
+    padding-top: 10px;
+}
+
+.bg-image, section {
+    background-color: #F6F4F7;
+}
+
+section{
+    padding-bottom:10px;
+}
+
+.highlight-text {
+    font-weight: bold;
+    color: #7A3080;
+}
+
+.page-title-area {
+    padding-top: 150px !important;
+}
